@@ -12,6 +12,10 @@ module.exports = function(environment) {
         // e.g. 'with-controller': true
       }
     },
+    googleFonts: [
+          'Open+Sans:300',
+          'Roboto:300'
+        ],
 
     APP: {
       // Here you can pass flags/options to your application instance
