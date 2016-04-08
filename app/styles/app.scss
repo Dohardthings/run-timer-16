@@ -42,6 +42,7 @@ nav {
   flex-grow: 1;
   min-height: 100vh;
   height: 100%;
+  font-family: $font-family;
 }
 
 .run-list {
@@ -80,4 +81,46 @@ footer {
   margin: 0;
   margin: 1rem;
   justify-content: flex-end;
+}
+
+.new-run-heading {
+  margin: 1rem;
+  color: $regular-text;
+}
+
+.new-run-buttons {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.run-form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.new-run-input {
+  background: $background-primary;
+  color: $regular-text;
+  margin: 1rem;
+  line-height: $base-line-height;
+  border: 0;
+  border-bottom: 1px solid $placeholder-text;
+}
+
+::-webkit-input-placeholder {
+  color: $placeholder-text;
+}
+
+.new-run-save {
+  background: $button-green;
+  border-radius: 0.4rem;
+}
+
+.new-run-cancel {
+  background: $button-grey;
+  border-radius: 0.4rem;
+
 }
