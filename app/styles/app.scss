@@ -7,3 +7,70 @@ $placeholder-text: rgba(255, 255, 255, 0.4);
 $green-text: #92cbc5;
 $button-text-grey: #1c1c1c;
 $background-primary: #282828;
+
+
+$font-family: Roboto;
+
+$base-font-size: 16px;
+$base-line-height: 24px;
+
+body {
+  margin: 0;
+}
+
+main {
+margin: auto;
+width: 60rem;
+
+}
+
+nav {
+  background: $header-bar-blue;
+  color: $title-white;
+  overflow: auto;
+}
+
+.navbar-heading {
+  font-family: $font-family;
+  margin-left: 3rem;
+}
+
+.container {
+  background: $background-primary;
+}
+
+.run-list {
+margin-top: 0;
+text-decoration: none;
+display:flex;
+flex-direction: row;
+
+}
+
+.run-list-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.run-text {
+  margin: 0;
+  line-height: $base-line-height;
+  color: $regular-text;
+}
+
+footer {
+  color: $button-green;
+  font-size: 5rem;
+  background: $background-primary;
+  display: flex;
+
+}
+
+.footer-text {
+  width: 100%;
+  margin: 0;
+  align-self: flex-end;
+}

@@ -1,8 +1,23 @@
-<navbar>
+{{outlet}}
+<main>
+<nav>
   <p class="navbar-heading">Run Timer</p>
-</navbar>
+</nav>
+
+
+
 
 <div class="container">
-
+<div class="run-list">
+  {{!-- {{#each model as |run|}} --}}
+  <div class="run-list-item">
+    <p class="run-text">10/15/15</p> <p class="run-text">25:04</p>
+  </div>
+  {{!-- {{/each}} --}}
 </div>
-{{outlet}}
+</div>
+
+<footer>
+  <p class="footer-text">{{fa-icon "plus-circle"}}</p><p>hello</p>
+</footer>
+</main>
