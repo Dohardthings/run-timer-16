@@ -32,11 +32,16 @@ nav {
 
 .navbar-heading {
   font-family: $font-family;
-  margin-left: 3rem;
+  margin-left: 1rem;
 }
 
 .container {
   background: $background-primary;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-height: 100vh;
+  height: 100%;
 }
 
 .run-list {
@@ -51,8 +56,8 @@ flex-direction: row;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin: 1rem;
+  border-bottom: 1px solid $regular-text;
 }
 
 .run-text {
@@ -70,7 +75,9 @@ footer {
 }
 
 .footer-text {
+  display: flex;
   width: 100%;
   margin: 0;
-  align-self: flex-end;
+  margin: 1rem;
+  justify-content: flex-end;
 }
