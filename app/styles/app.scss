@@ -137,3 +137,43 @@ footer {
   border: 0;
 
 }
+
+.details-heading {
+  color: $regular-text;
+  margin: 1rem;
+}
+
+.details-date-time {
+  display: flex;
+  justify-content: space-between;
+  color: $regular-text;
+  margin: 1rem;
+}
+
+.detail-notes {
+  color: $regular-text;
+  margin: 1rem;
+}
+
+.details-time {
+  color: $green-text;
+}
+
+.bottom {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  border-radius: 50%;
+  border: 0;
+  font-size: 2rem;
+}
+
+.pencil {
+  border-radius: 50%;
+  border: 0;
+  font-size: 2rem;
+  background: $button-green;
+}
