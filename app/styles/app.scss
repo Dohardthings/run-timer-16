@@ -1,3 +1,4 @@
+
 $button-grey: #ddd;
 $button-green: #80cbc4;
 $header-bar-blue: #00bbd3;
@@ -14,13 +15,14 @@ $font-family: Roboto;
 $base-font-size: 16px;
 $base-line-height: 24px;
 
+
 body {
   margin: 0;
 }
 
 main {
 margin: auto;
-width: 60rem;
+max-width: 60rem;
 
 }
 
@@ -43,13 +45,15 @@ nav {
   min-height: 100vh;
   height: 100%;
   font-family: $font-family;
+  max-width: 60rem;
 }
 
 .run-list {
 margin-top: 0;
 text-decoration: none;
 display:flex;
-flex-direction: row;
+flex-direction: column;
+max-width: 60rem;
 
 }
 
@@ -59,12 +63,6 @@ flex-direction: row;
   width: 100%;
   margin: 1rem;
   border-bottom: 1px solid $regular-text;
-}
-
-.run-text {
-  margin: 0;
-  line-height: $base-line-height;
-  color: $regular-text;
 }
 
 footer {
@@ -83,6 +81,15 @@ footer {
   justify-content: flex-end;
 }
 
+
+.run-text {
+  margin: 0;
+  line-height: $base-line-height;
+  color: $regular-text;
+}
+
+
+
 .new-run-heading {
   margin: 1rem;
   color: $regular-text;
@@ -98,6 +105,7 @@ footer {
 .run-form {
   display: flex;
   flex-direction: column;
+  max-width: 60rem;
 
 }
 
@@ -118,7 +126,6 @@ footer {
   background: $button-green;
   border-radius: 0.4rem;
   border: 0;
-
 }
 
 .new-run-cancel {

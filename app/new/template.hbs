@@ -1,16 +1,13 @@
 
 {{outlet}}
-<main>
-<nav>
-  <p class="navbar-heading">Run Timer</p>
-</nav>
 
-<div class="container">
+
+
   <h2 class="new-run-heading">New Run</h2>
-<form class="run-form">
-  <input class="new-run-input" type="text" placeholder="Race Time">
-  <input class="new-run-input" type="text" placeholder="Race Date">
-  <input class="new-run-input" type="text" placeholder="Race Notes">
+<form {{action saveRun on="submit"}} class="run-form">
+  {{input class="new-run-input" type="text" placeholder="Race Time" value=time}}
+  {{input class="new-run-input" type="text" placeholder="Race Date" value=date}}
+  {{input class="new-run-input" type="text" placeholder="Race Notes" value=notes}}
   <div class="new-run-buttons">
     {{#link-to "index"}}
 <button class="new-run-cancel">CANCEL</button>
@@ -18,9 +15,3 @@
 <button class="new-run-save">SAVE</button>
   </div>
 </form>
-</div>
-
-<footer>
-
-</footer>
-</main>
