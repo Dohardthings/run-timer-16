@@ -1,1 +1,14 @@
-{{outlet}}
+<h2 class="edit-heading">New Run</h2>
+
+<form  class="edit-form">
+
+  {{input class="edit-input" type="text" placeholder="Race Time" value=time}}
+  {{input class="edit-input" type="text" placeholder="Race Date" value=date}}
+  {{input class="edit-input" type="text" placeholder="Race Notes" value=notes}}
+</form>
+<div class="edit-buttons">
+  {{#link-to "detail" model._id}}
+  <button class="cancel-edit">CANCEL</button>
+  {{/link-to}}
+  <button class="save-edit">SAVE</button>
+</div>
