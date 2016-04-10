@@ -69,7 +69,7 @@ max-width: 60rem;
 
 footer {
   color: $button-green;
-  font-size: 3rem;
+  font-size: 2rem;
   background: $background-primary;
   display: flex;
   justify-content: flex-end;
@@ -79,7 +79,7 @@ footer {
 .footer-text {
   display: flex;
   width: 100%;
-  margin: 1rem;
+  margin: 3rem;
   text-decoration: none;
 
 }
@@ -169,12 +169,15 @@ footer {
 .left {
   border-radius: 50%;
   border: 0;
-  font-size: 2rem;
+  font-size: 1rem;
+  padding: 1rem;
+
 }
 
 .pencil {
   border-radius: 50%;
   border: 0;
-  font-size: 2rem;
+  font-size: 1rem;
+  padding: 1rem;
   background: $button-green;
 }
