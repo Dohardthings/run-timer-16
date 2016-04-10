@@ -63,6 +63,7 @@ max-width: 60rem;
   margin: 1rem;
   border-bottom: 1px solid $regular-text;
   line-height: $base-line-height;
+  text-decoration: none;
 }
 
 
@@ -200,6 +201,7 @@ footer {
   border: 0;
   border-bottom: 1px solid $regular-text;
   line-height: 24px;
+  color: $regular-text;
 
 }
 
