@@ -75,21 +75,27 @@ max-width: 60rem;
 
 footer {
   color: $button-green;
-  font-size: 2rem;
+  font-size: 1rem;
   background: $background-primary;
   display: flex;
   justify-content: flex-end;
+  margin: 1rem;
 
 }
 
 .footer-text {
   display: flex;
   width: 100%;
-  margin: 3rem;
+  margin: .5rem;
   text-decoration: none;
+  color: white;
 
 }
 
+.footer-text-container {
+  background: $button-green;
+  border-radius: 50%;
+}
 
 .run-text {
   margin: 0;
