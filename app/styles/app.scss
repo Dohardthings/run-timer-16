@@ -28,6 +28,10 @@ a:link {
 main {
 margin: auto;
 max-width: 60rem;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+
 
 }
 
@@ -44,10 +48,7 @@ nav {
 
 .container {
   background: $background-primary;
-  display: flex;
-  flex-direction: column;
   flex-grow: 1;
-  min-height: 100vh;
   height: 100%;
   font-family: $font-family;
   max-width: 60rem;
